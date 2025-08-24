@@ -21,4 +21,4 @@ DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
 ```
 bitbake ur_image
 ```
-you should now systemd is running instaed of systemv init
+you should now see systemd is running instaed of systemv init
