@@ -48,3 +48,4 @@ do_install() {
 # Tell Yocto about the service
 SYSTEMD_SERVICE_${PN} = "hello.service"
 SYSTEMD_AUTO_ENABLE = "enable"
+FILES:${PN} += "${systemd_unitdir}"
